@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+      android:id="@+id/tv_tag_txt"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:paddingLeft="15dp"
+      android:paddingTop="15dp"
+      android:paddingBottom="15dp"
+      android:drawableLeft="@mipmap/icon_dropdown_list"
+      android:text="@string/ad"
+      android:textStyle="bold"
+      android:drawablePadding="8dp"
+      android:gravity="center_vertical"
+      android:textSize="17sp"
+    android:background="#cdc"
+    >
+
+</TextView>

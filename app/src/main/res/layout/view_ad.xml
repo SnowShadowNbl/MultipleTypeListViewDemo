@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager_ad"
+        android:layout_width="match_parent"
+        android:layout_height="216.2dp"
+        android:background="@mipmap/default_169"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        >
+
+        <TextView
+            android:id="@+id/tv_ad_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            tools:text="@string/ad"
+            android:textSize="13sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            />
+
+        <LinearLayout
+            android:id="@+id/ad_dots"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_ad_title"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            />
+
+    </RelativeLayout>
+
+</RelativeLayout>
